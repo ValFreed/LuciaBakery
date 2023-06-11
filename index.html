@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucia Bakery</title>
+    <link rel="icon" type="image/x-icon" href="assets/logoluciabakery.ico" />
+    <link href="css/cess.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/cb73e6a2ba.js" crossorigin="anonymous"></script>
+    <style>
+        .movie{
+            height: 300px;
+            display: grid;
+        }
+        video{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            filter: blur(5px);
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <!--Header-->
+    <header>
+        <div class="container">
+            <h1>LUCIA BAKERY</h1>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="listjajan.html">PRODUK</a></li>
+                <li><a href="tentangkami.html">ABOUT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Judul Section-->
+    <section id="judul">
+        <div class="judul fadehalaman">
+            <img class="logo" src="assets/img/luciabakery.png" alt="..." />
+            <h1 style="font-size: 80px; line-height: 2.75rem; color: #fdfdfd; text-align: center;">Makan Kue Setiap Hari</h1>
+            <br><br><br>
+            <table class="batas">
+                <tr>
+                    <td>===========</td>
+                    <td><img class="icon" src="assets/img/luciabakery.png" alt="..." /></td>
+                    <td>===========</td>
+                </tr>
+            </table>
+            <br><br>
+            <p>Makan enak - Nikmati Segarnya - Makanan Adalah Cinta</p>
+        </div>
+    </section>
+
+    <!--List Jajan Section-->
+    <section id="jenisjajan" >
+        <div class="jenisjajan fadehalaman">
+            <h2>JENIS JAJAN</h2>
+            <br/><br>
+            <table class="batasjajan">
+                <tr>
+                    <td>===========</td>
+                    <td><img class="icon" src="assets/img/luciabakery.png"/></td>
+                    <td>===========</td>
+                </tr>
+            </table>
+            <h3>
+                Lucia Bakery menawarkan produk terbaik di Indonesia. 
+                Bahan-bahan pilihan, tekstur yang seimbang, kaya rasa, dan penyajian yang lezat
+                digunakan untuk menyempurnakan setiap produk.
+            </h3>
+            <table class="batasjajan">
+                <tr>
+                    <td>===========</td>
+                    <td><img class="icon" src="assets/img/luciabakery.png"/></td>
+                    <td>===========</td>
+                </tr>
+            </table>
+            <br>
+            <table class="tabellistjjn">
+                <tr>
+                    <td><img class="imgjajan" src="assets/img/portfolio/jajanmodern.png" alt="imgjajan" /></td>
+                    <td><img class="imgjajan" src="assets/img/portfolio/jajanpasar.png" alt="imgjajan" /></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!--Video Section-->
+    <section  >
+        <div class="movie">
+            <video src="assets/footage.mp4" loop="true" autoplay="autoplay" muted></video>
+        </div>
+    </section>
+
+     <!--Kontak Section-->
+     <section id="kontak">
+        <div class="kontak fadehalaman">
+            <table class="tabelkontak" border=0 cellpadding=10 cellspacing=30 >
+                <tr>
+                    <td><h4>Lokasi</h4></td>
+                    <td><h4>Kontak kami</h4></td>
+                    <td><h4>Jam Operasional</h4></td>
+                </tr>
+                <tr>
+                    <td><p>Jl. Makan enak No. 007<br/>Osaka | Jepang</p></td>
+                    <td>
+                        <div>
+                            <a href="https://www.facebook.com/val.freed.71"><i class="fab fa-fw fa-facebook-f" ></i></a>
+                            <a href="https://www.instagram.com/itsuki.id_/?hl=en"><i class="fab fa-fw fa-instagram"></i></a>
+                            <a href="https://wa.me/qr/HTFBI3KQMKOWN1"><i class="fab fa-fw fa-whatsapp"></i></a>
+                        </div>
+                    </td>
+                    <td>
+                        <p>
+                            Senin - Jum'at: 07.00 s/d 21.00
+                            <br/>
+                            Sabtu - Minggu: 07.00 s/d 18.00
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Copyright Section-->
+    <footer>
+        <div>
+            <div class="copyright fadehalaman"><small>Copyright &copy; Lucia Bakery 2022</small></div>
+        </div>
+    </footer>
+    <button id="scrollToTopButton"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="js/scrolltotop.js"></script>
+</body>
+</html>
